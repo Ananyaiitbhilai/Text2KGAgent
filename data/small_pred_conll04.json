@@ -1,0 +1,700 @@
+[
+    {
+        "title": "1846",
+        "context": "Lightning ignited a firestorm that charred 10 , 000 acres in central Idaho , including much of the small resort town of Lowman , about 70 miles northeast of Boise.",
+        "id": "1846",
+        "triplets_sentence": "<triplet> Lowman <loc> Idaho <loc> location",
+        "triples": [
+            {"head": "Lightning", "type": "ignited", "tail": "a firestorm"},
+            {
+                "head": "a firestorm",
+                "type": "charred",
+                "tail": "10, 000 acres"
+            },
+            {
+                "head": "10, 000 acres",
+                "type": "included",
+                "tail": "central Idaho"
+            },
+            {
+                "head": "central Idaho",
+                "type": "location",
+                "tail": "including much of the small resort town of Lowman"
+            },
+            {
+                "head": "Lowman",
+                "type": "residence for some people",
+                "tail": "about 70 miles northeast of Boise"
+            }
+        ]
+    },
+  
+    {
+        "title": "2283",
+        "context": "An urgent call for international help to avert food shortages in Poland went out both from last month 's Western economic summit in Paris and from Monday 's meeting in Brussels of 24 concerned nations chaired by the European Community Commission.",
+        "id": "2283",
+        "triplets_sentence": "<triplet> European Community Commission. <org> Brussels <loc> headquarters location",
+        "triples": [
+            {
+                "head": "An urgent call",
+                "type": "went out",
+                "tail": "from last month's Western economic summit in Paris"
+            },
+            {
+                "head": "An urgent call",
+                "type": "went out",
+                "tail": "from Monday's meeting in Brussels of 24 concerned nations"
+            },
+            {
+                "head": "last month's Western economic summit in Paris",
+                "type": "location",
+                "tail": "Paris"
+            },
+            {
+                "head": "Monday's meeting in Brussels",
+                "type": "location",
+                "tail": "Brussels"
+            },
+            {
+                "head": "the European Community Commission",
+                "type": "chaired by",
+                "tail": "24 concerned nations"
+            }
+        ]
+    },
+    {
+        "title": "2743",
+        "context": "Middle-class Argentines , among the most affluent in Latin America at one time , are so strapped now that they are selling off heirlooms that had been in their families since the days when beef and grain made Argentina one of the world 's wealthiest nations.",
+        "id": "2743",
+        "triplets_sentence": "<triplet> Argentina <loc> Latin America <loc> location",
+        "triples": [
+            "{'head': 'Middle-class Argentines', 'type': 'headquarters location', 'tail': 'among the most affluent in Latin America at one time'}",
+            {
+                "head": "Middle-class Argentines",
+                "type": "employer",
+                "tail": "arguably, the agricultural sector"
+            },
+            {
+                "head": "Argentina",
+                "type": "location",
+                "tail": "one of the worlds wealthiest nations"
+            },
+            {
+                "head": "Middle-class Argentines",
+                "type": "type_of_entity",
+                "tail": "People"
+            }
+        ]
+    },
+    {
+        "title": "326",
+        "context": "River North 's nouvelle sensibilities also might be offended by the Ranch 's menu , which features items such as the ` ` Jesse James Steak ( A Steal ! ) , ' ' and the occasional ornery patron .",
+        "id": "326",
+        "triplets_sentence": "<triplet> Ranch <org> River North <loc> headquarters location",
+        "triples": [
+            "{'head': 'River North', 'type': 'offended by', 'tail': 'River North's nouvelle sensibilities'}",
+            {
+                "head": "Ranch",
+                "type": "features",
+                "tail": "items such as the Jesse James Steak"
+            }
+        ]
+    },
+    {
+        "title": "1138",
+        "context": "It was filmed on location in Tokyo and Kyoto and is a co-production of Children 's Television Worship and NHK network in Japan .",
+        "id": "1138",
+        "triplets_sentence": "<triplet> Tokyo <loc> Japan <loc> location <triplet> Kyoto <loc> Japan <loc> location",
+        "triples": [
+            "{'head': 'It was filmed', 'type': 'location', 'tail': 'Tokyo and Kyoto'}",
+            {
+                "head": "It was filmed",
+                "type": "production by",
+                "tail": "Children's Television Workshop"
+            },
+            {
+                "head": "It was filmed",
+                "type": "production by",
+                "tail": "NHK network"
+            }
+        ]
+    },
+    {
+        "title": "1003",
+        "context": "Sen. Jake Garn , R-Utah , flew on the shuttle in April 1985 and Rep. Bill Nelson , D-Fla. , was aboard in January 1986 , at the invitation of NASA 's administrator .",
+        "id": "1003",
+        "triplets_sentence": "<triplet> Jake Garn <peop> NASA <org> employer <triplet> Bill Nelson <peop> NASA <org> employer",
+        "triples": [
+            "{'head': 'Sen. Jake Garn', 'type': 'headquarters location', 'tail': 'R-Utah'}",
+            {
+                "head": "Sen. Jake Garn",
+                "type": "headquarters location",
+                "tail": "at the invitation of NASA's administrator"
+            },
+            {
+                "head": "Rep. Bill Nelson",
+                "type": "headquarters location",
+                "tail": "D-Fla."
+            },
+            {
+                "head": "Rep. Bill Nelson",
+                "type": "headquarters location",
+                "tail": "at the invitation of NASA's administrator"
+            }
+        ]
+    },
+    {
+        "title": "2581",
+        "context": "Ten Soviet volunteers and their American counterparts plan to spend August in Washington building homes for the poor as a return favor for help in earthquake-devastated Soviet Armenia.",
+        "id": "2581",
+        "triplets_sentence": "<triplet> Armenia. <loc> Soviet <loc> location",
+        "triples": [
+            [
+                "Ten Soviet volunteers",
+                "plan to spend August in",
+                "Washington"
+            ],
+            [
+                "Ten Soviet volunteers",
+                "are",
+                "Soviet counterparts"
+            ],
+            [
+                "Ten Soviet volunteers and their American counterparts",
+                "plan to",
+                "build homes for the poor"
+            ],
+            [
+                "Washington",
+                "is",
+                "city"
+            ],
+            [
+                "Washington",
+                "is",
+                "return favor for help in"
+            ],
+            [
+                "Soviet Armenia",
+                "was earthquake-devastated"
+            ],
+            [
+                "Soviet Armenia",
+                "is",
+                "country"
+            ]
+        ]
+    },
+    {
+        "title": "4378",
+        "context": "Jose Vicente Maldonado , the Ecuadoran minister of industry , commerce , and integration , said that the foreign of the Andean Group ( Colombia , Bolivia , Ecuador , Peru , and Venezuela ) , will study a new date for the summit .",
+        "id": "4378",
+        "triplets_sentence": "<triplet> Andean Group <org> Colombia <loc> headquarters location <org> Bolivia <loc> headquarters location <org> Ecuador <loc> headquarters location <org> Peru <loc> headquarters location <org> Venezuela <loc> headquarters location",
+        "triples": [
+            "{'head': 'Jose Vicente Maldonado', 'type': 'headquarters location', 'tail': 'Ecuadoran minister of industry, commerce, and integration'}",
+            {
+                "head": "Andean Group",
+                "type": "employer",
+                "tail": "Colombia, Bolivia, Ecuador, Peru, Venezuela"
+            }
+        ]
+    },
+    {
+        "title": "5252",
+        "context": "Dole 's wife , Elizabeth , is a native of Salisbury , N.C .",
+        "id": "5252",
+        "triplets_sentence": "<triplet> Elizabeth <peop> Salisbury , N.C <loc> residence",
+        "triples": [
+            "{'head': 'Elizabeth', 'type': 'residence', 'tail': 'Salisbury, N.C.'}"
+        ]
+    },
+    {
+        "title": "5082",
+        "context": "Today 's highlight in history : On the Ides of March , 44 B.C. , Roman Emperor Julius Caesar was assassinated by a group of nobles that included Brutus and Cassius .",
+        "id": "5082",
+        "triplets_sentence": "<triplet> Brutus <peop> Roman Emperor Julius Caesar <peop> killed by <triplet> Cassius <peop> Roman Emperor Julius Caesar <peop> killed by",
+        "triples": [
+            "{'head': 'Roman Emperor Julius Caesar', 'type': 'killed by', 'tail': ['Brutus', 'Cassius']}"
+        ]
+    },
+    {
+        "title": "5114",
+        "context": "Until President 's Day of this year , the public could not enter the sixth floor of the old school book depository in downtown Dallas , where it 's believed Lee Harvey Oswald fired the shots that killed Kennedy .",
+        "id": "5114",
+        "triplets_sentence": "<triplet> Lee Harvey Oswald <peop> Kennedy <peop> killed by",
+        "triples": [
+            "{\"head\": \"President\", \"type\": \"headquarters location\", \"tail\": \"old school book depository in downtown Dallas\"}",
+            {
+                "head": "old school book depository in downtown Dallas",
+                "type": "location",
+                "tail": "downtown Dallas"
+            }
+        ]
+    },
+    {
+        "title": "4476",
+        "context": "An electrical train has arrived at Novonezhino to evacuate local inhabitants , and a special group from the Russian Defence Ministry has left Moscow by plane en route to Vladivostok and the site of the explosion .",
+        "id": "4476",
+        "triplets_sentence": "<triplet> Russian Defence Ministry <org> Moscow <loc> headquarters location",
+        "triples": [
+            {
+                "head": "An electrical train",
+                "type": "has arrived",
+                "tail": "Novonezhino"
+            },
+            {
+                "head": "A special group",
+                "type": "has left",
+                "tail": "Moscow"
+            },
+            {
+                "head": "A special group",
+                "type": "is en route",
+                "tail": "Vladivostok"
+            }
+        ]
+    },
+    {
+        "title": "278",
+        "context": "Deputy U.S. Ambassador Herbert S. Okun announced the cancellation just before the council began debate , and officials in Washington confirmed it .",
+        "id": "278",
+        "triplets_sentence": "<triplet> Herbert S. Okun <peop> U.S. <loc> residence",
+        "triples": [
+            "{'head': 'Deputy U.S. Ambassador Herbert S. Okun', 'type': 'announced', 'tail': 'the cancellation'}",
+            {
+                "head": "Deputy U.S. Ambassador Herbert S. Okun",
+                "type": "announced",
+                "tail": "the cancellation"
+            },
+            {
+                "head": "officials in Washington",
+                "type": "confirmed",
+                "tail": "the cancellation"
+            }
+        ]
+    },
+    {
+        "title": "59",
+        "context": "Winter , 53 , a former Yale University law professor who took the bench in 1982 , and Starr , a fellow appointee of President Reagan , are both known as judicial conservatives .",
+        "id": "59",
+        "triplets_sentence": "<triplet> Winter <peop> Yale University <org> employer",
+        "triples": [
+            [
+                "Winter",
+                "took the bench in",
+                "1982"
+            ],
+            [
+                "Winter",
+                "type",
+                "former Yale University law professor"
+            ],
+            [
+                "Starr",
+                "type",
+                "fellow appointee of President Reagan"
+            ],
+            [
+                "Starr",
+                "type",
+                "judicial conservatives"
+            ],
+            [
+                "Winter",
+                "type",
+                "judicial conservatives"
+            ]
+        ]
+    },
+    {
+        "title": "5346",
+        "context": "In 1873 , radio electronics pioneer Dr. Lee DeForest was born in Council Bluffs , Iowa .",
+        "id": "5346",
+        "triplets_sentence": "<triplet> Dr. Lee DeForest <peop> Council Bluffs , Iowa <loc> residence",
+        "triples": [
+            "{'head': 'Dr. Lee DeForest', 'type': 'born', 'tail': '1873'}",
+            {
+                "head": "Dr. Lee DeForest",
+                "type": "birthplace",
+                "tail": "Council Bluffs"
+            },
+            {
+                "head": "Council Bluffs",
+                "type": "location",
+                "tail": "Iowa"
+            }
+        ]
+    },
+    {
+        "title": "2801",
+        "context": "The Internal Revenue Service and Manufacturers Hanover Trust Co. of New York , two of the largest creditors in the Herbert Hunt bankruptcy , said they will file a repayment plan by Friday.",
+        "id": "2801",
+        "triplets_sentence": "<triplet> Manufacturers Hanover Trust Co. <org> New York <loc> headquarters location",
+        "triples": [
+            {
+                "head": "The Internal Revenue Service",
+                "type": "employer",
+                "tail": "N/A"
+            },
+            {
+                "head": "The Internal Revenue Service",
+                "type": "employer",
+                "tail": "two of the largest creditors"
+            },
+            {
+                "head": "Manufacturers Hanover Trust Co. of New York",
+                "type": "employer",
+                "tail": "N/A"
+            },
+            {
+                "head": "Manufacturers Hanover Trust Co. of New York",
+                "type": "employer",
+                "tail": "two of the largest creditors"
+            },
+            {
+                "head": "Herbert Hunt",
+                "type": "N/A",
+                "tail": "bankruptcy"
+            }
+        ]
+    },
+    {
+        "title": "5285",
+        "context": "Other winners are : _ Actress Helen Hayes , 87 , born in Washington , who first appeared on stage at the age of 5 , made her New York debut in 1909 and has played in works of Shakespeare , Tennessee Williams and Eugene O'Neill during her long career as a stage and movie actress.",
+        "id": "5285",
+        "triplets_sentence": "<triplet> Actress Helen Hayes <peop> Washington <loc> residence",
+        "triples": [
+            {
+                "head": "Actress Helen Hayes",
+                "type": "born in",
+                "tail": "Washington"
+            },
+            {
+                "head": "Actress Helen Hayes",
+                "type": "first appeared on stage at",
+                "tail": "age of 5"
+            },
+            {
+                "head": "Actress Helen Hayes",
+                "type": "made her New York debut in",
+                "tail": "1909"
+            },
+            {
+                "head": "Actress Helen Hayes",
+                "type": "has played in works of",
+                "tail": "Shakespeare"
+            },
+            {
+                "head": "Actress Helen Hayes",
+                "type": "has played in works of",
+                "tail": "Tennessee Williams"
+            },
+            {
+                "head": "Actress Helen Hayes",
+                "type": "has played in works of",
+                "tail": "Eugene O'Neill"
+            }
+        ]
+    },
+    {
+        "title": "2078",
+        "context": "The law , patterned after similar measures in Michigan and California , gives victims ` ` a maximum opportunity to participate , ' ' said Fran Sepler , executive of the state Crime Victim and Witness Advisory Council.",
+        "id": "2078",
+        "triplets_sentence": "<triplet> Fran Sepler <peop> state Crime Victim and Witness Advisory Council. <org> employer",
+        "triples": [
+            "{'head': 'similar measures in Michigan and California', 'type': 'patterned after', 'tail': 'The law'}",
+            {
+                "head": "The law",
+                "type": "gives",
+                "tail": "victims ' "
+            },
+            {
+                "head": "victims ",
+                "type": "a maximum opportunity to participate",
+                "tail": "."
+            }
+        ]
+    },
+    {
+        "title": "958",
+        "context": "Gary Hess , an Emery employee , saw the plane go down as he was getting off work at the airport .",
+        "id": "958",
+        "triplets_sentence": "<triplet> Gary Hess <peop> Emery <org> employer",
+        "triples": [
+            {
+                "head": "Gary Hess",
+                "type": "employee",
+                "tail": "Emery"
+            },
+            {
+                "head": "Gary Hess",
+                "type": "witnessed",
+                "tail": "plane going down"
+            },
+            {
+                "head": "airport",
+                "type": "location",
+                "tail": "where Gary Hess was getting off work"
+            }
+        ]
+    },
+    {
+        "title": "5223",
+        "context": "In 1963 , the year he joined the Herald Tribune , he was riding in the motorcade with President Kennedy when Kennedy was fatally shot by Lee Harvey Oswald in Dallas. ;",
+        "id": "5223",
+        "triplets_sentence": "<triplet> Lee Harvey Oswald <peop> Kennedy <peop> killed by",
+        "triples": [
+            [
+                "president Kennedy",
+                "was killed by",
+                "Lee Harvey Oswald"
+            ],
+            [
+                "president Kennedy",
+                "year joined",
+                "Herald Tribune"
+            ],
+            [
+                "Herald Tribune",
+                "year founded",
+                "1963"
+            ]
+        ]
+    },
+    {
+        "title": "429",
+        "context": "` ` If we 're going to address this problem it will be a grass-roots effort by activists throughout the cities of the world , ' ' said Jeremy Rifkin , director of the Foundation on Economic Trends and a member of the Global Greenhouse Network , a coalition of environmental activists in 35 countries .",
+        "id": "429",
+        "triplets_sentence": "<triplet> Jeremy Rifkin <peop> Foundation on Economic Trends <org> employer <peop> Global Greenhouse Network <org> employer",
+        "triples": [
+            "{'head': 'Jeremy Rifkin', 'type': 'employer', 'tail': 'Foundation on Economic Trends'}",
+            {
+                "head": "Jeremy Rifkin",
+                "type": "member",
+                "tail": "Global Greenhouse Network"
+            },
+            {
+                "head": "Global Greenhouse Network",
+                "type": "coalition",
+                "tail": "environmental activists in 35 countries"
+            }
+        ]
+    },
+    {
+        "title": "5199",
+        "context": "When he was called to examine Robert F. Kennedy 's assassin , Sirhan Sirhan , a Jordanian residing in the United States , Markman refused .",
+        "id": "5199",
+        "triplets_sentence": "<triplet> Sirhan Sirhan <peop> Robert F. Kennedy <peop> killed by",
+        "triples": [
+            "{\"head\": \"Markman\", \"type\": \"refused\", \"tail\": \"Sirhan Sirhan\"}",
+            {
+                "head": "Markman",
+                "type": "relating\\_to",
+                "tail": "Robert F. Kennedy"
+            },
+            {
+                "head": "Sirhan Sirhan",
+                "type": "nationality",
+                "tail": "Jordanian"
+            },
+            {
+                "head": "Sirhan Sirhan",
+                "type": "residence",
+                "tail": "United States"
+            }
+        ]
+    },
+    {
+        "title": "5070",
+        "context": "James Earl Ray , 60 , is serving 99 years in prison for first-degree murder of King in Memphis on April 4 , 1968 .",
+        "id": "5070",
+        "triplets_sentence": "<triplet> James Earl Ray <peop> King <peop> killed by",
+        "triples": [
+            {
+                "head": "James Earl Ray",
+                "type": "headquarters location",
+                "tail": "Memphis"
+            },
+            {
+                "head": "James Earl Ray",
+                "type": "employer",
+                "tail": "99 years in prison for first-degree murder"
+            },
+            {
+                "head": "King",
+                "type": "killed by",
+                "tail": "James Earl Ray"
+            },
+            {
+                "head": "April 4, 1968",
+                "type": "location",
+                "tail": "Memphis"
+            }
+        ]
+    },
+    {
+        "title": "3110",
+        "context": "( Excerpts ) US President Bill Clinton 's decision to lift a long-standing trade embargo against Vietnam had been expected. ( passage omitted ) In his White House speech , Clinton said the time for bitterness was over and now was the time for a new beginning between Hanoi and Washington .",
+        "id": "3110",
+        "triplets_sentence": "<triplet> Bill Clinton <peop> US <loc> residence",
+        "triples": [
+            "{'head': 'Bill Clinton', 'type': 'headquarters location', 'tail': 'White House'}",
+            {
+                "head": "Bill Clinton",
+                "type": "employer",
+                "tail": "President"
+            },
+            {
+                "head": "Hanoi",
+                "type": "location",
+                "tail": "Vietnam"
+            }
+        ]
+    },
+    {
+        "title": "3211",
+        "context": "Such theories , which are not alone in the international press , find support in another agreement that was also signed in Geneva -- which the Croatian opposition ostensibly did not notice , to the great surprise and almost astonishment of all , and consequently did not comment on , although the integral text was published in Croatian newspapers -- the agreement signed between Mile Akmadzic , on behalf of the Croatian Republic of Herceg-Bosna , and Nikola Koljevic , on behalf of the Serbian Republic , in which both sides emphasize that \" there are no disputed issues between them that cannot be solved in a peaceful way . \"",
+        "id": "3211",
+        "triplets_sentence": "<triplet> Mile Akmadzic <peop> Croatian Republic of Herceg-Bosna <loc> residence <triplet> Nikola Koljevic <peop> Serbian Republic <loc> residence",
+        "triples": [
+            {
+                "head": "Mile Akmadzic",
+                "type": "headquarters location",
+                "tail": "Croatian Republic of Herceg-Bosna"
+            },
+            {
+                "head": "Nikola Koljevic",
+                "type": "headquarters location",
+                "tail": "Serbian Republic"
+            },
+            {
+                "head": "Mile Akmadzic",
+                "type": "employer",
+                "tail": "Croatian Republic of Herceg-Bosna"
+            },
+            {
+                "head": "Nikola Koljevic",
+                "type": "employer",
+                "tail": "Serbian Republic"
+            },
+            {
+                "head": "Mile Akmadzic",
+                "type": "relation",
+                "tail": "on behalf of"
+            },
+            {
+                "head": "Nikola Koljevic",
+                "type": "relation",
+                "tail": "on behalf of"
+            },
+            {
+                "head": "both sides",
+                "type": "relation",
+                "tail": "emphasize that"
+            },
+            {
+                "head": "both sides",
+                "type": "relation",
+                "tail": "there are no disputed issues between them that cannot be solved in a peaceful way."
+            }
+        ]
+    },
+    {
+        "title": "3418",
+        "context": "Tal , a senior Defense Ministry official , has not repeated these views in public .",
+        "id": "3418",
+        "triplets_sentence": "<triplet> Tal <peop> Defense Ministry <org> employer",
+        "triples": [
+            "{'head': 'Tal', 'type': 'Organisation', 'tail': 'Defense Ministry'}",
+            {
+                "head": "Tal",
+                "type": "type",
+                "tail": "senior official"
+            }
+        ]
+    },
+    {
+        "title": "5298",
+        "context": "In 1890 , the 34th President of the United States , Dwight D. Eisenhower , was born in Denison , Texas .",
+        "id": "5298",
+        "triplets_sentence": "<triplet> Dwight D. Eisenhower <peop> Denison , Texas <loc> residence",
+        "triples": [
+            {
+                "head": "Dwight D. Eisenhower",
+                "type": "born in",
+                "tail": "Denison"
+            },
+            {
+                "head": "Denison",
+                "type": "location",
+                "tail": "Texas"
+            },
+            {
+                "head": "1890",
+                "type": "headquarters location",
+                "tail": "United States"
+            },
+            {
+                "head": "United States",
+                "type": "employer",
+                "tail": "Dwight D. Eisenhower"
+            }
+        ]
+    },
+    {
+        "title": "2607",
+        "context": "Harrington taught at Harvard University and the National War College.",
+        "id": "2607",
+        "triplets_sentence": "<triplet> Harrington <peop> Harvard University <org> employer <peop> National War College. <org> employer",
+        "triples": [
+            [
+                "Harvard University",
+                "teached at",
+                "Harrington"
+            ],
+            [
+                "National War College",
+                "teached at",
+                "Harrington"
+            ]
+        ]
+    },
+    {
+        "title": "5146",
+        "context": "The federal appeals court threw out the death sentence of John Harvey Adamson , convicted of murdering Phoenix newspaper reporter Don Bolles in 1976 .",
+        "id": "5146",
+        "triplets_sentence": "<triplet> John Harvey Adamson <peop> Don Bolles <peop> killed by",
+        "triples": [
+            [
+                "John Harvey Adamson",
+                "convicted of",
+                "murdering"
+            ],
+            [
+                "John Harvey Adamson",
+                "headquarters location",
+                "Phoenix"
+            ],
+            [
+                "Phoenix",
+                "location",
+                "newspaper reporter"
+            ],
+            [
+                "Don Bolles",
+                "Type",
+                "newspaper reporter"
+            ],
+            [
+                "John Harvey Adamson",
+                "punishment",
+                "death sentence"
+            ],
+            [
+                "federal appeals court",
+                "action",
+                "threw out"
+            ]
+        ]
+    }
+]
